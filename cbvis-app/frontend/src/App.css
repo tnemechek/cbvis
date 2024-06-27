@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.menu-bar {
+    background-color: #b3d9ff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar a {
+    color: #333;
+    padding: 0.5em;
+}
+
+.menu-bar a:hover {
+    background-color: #d1eaff;
+    border-radius: 5px;
+}
+
+.table-component {
+    margin-top: 20px;
+}
+
+.table-component table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-component th, .table-component td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table-component th {
+    background-color: #e6f7ff;
+}
+
+.table-component td {
+    background-color: #f9f9fb;
+}
+
+.button-group {
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #b3d9ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+}
+
+.button-group button:hover {
+    background-color: #a0c8e6;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

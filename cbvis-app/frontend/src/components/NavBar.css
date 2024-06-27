@@ -1,0 +1,32 @@
+.nav-bar {
+    width: 180px;
+    background-color: #e6f7ff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar h2 {
+    text-align: center;
+    color: #333;
+}
+
+.nav-bar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-bar nav ul li {
+    margin: 10px 0;
+}
+
+.nav-bar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-bar nav ul li a:hover {
+    background-color: #d1eaff;
+}

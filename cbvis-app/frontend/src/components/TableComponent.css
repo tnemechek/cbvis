@@ -1,0 +1,84 @@
+.table-component-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 50px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.table-container {
+    flex: 1;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.navbar-collapsed .navbar {
+    width: 20px;
+}
+
+.navbar-collapsed .sidebar {
+    display: none;
+}

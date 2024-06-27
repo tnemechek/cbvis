@@ -1,0 +1,49 @@
+.dash-bar {
+    background-color: #b3d9ff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.view-selection a {
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.view-selection a:hover {
+    background-color: #d1eaff;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 150px; /* Limit the height */
+    overflow-y: auto; /* Scroll if the content is too tall */
+}
+
+.checkbox-list label {
+    margin-bottom: 0.5em;
+}
+
+.dashboard-content {
+    padding: 1em;
+}

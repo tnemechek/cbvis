@@ -1,0 +1,1 @@
+connstr = 'postgresql://postgres:tnadmin@localhost/'
